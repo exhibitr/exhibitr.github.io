@@ -1,4 +1,4 @@
-baseURL: http://something-fresh.org/
+baseURL: https://exhibitr.github.io
 languageCode: en-us
 title: Hugo Fresh Theme
 
@@ -6,7 +6,7 @@ module:
   # uncomment line below for local development of module
   # workspace: hugo.work
   imports:
-    path: github.com/StefMa/hugo-fresh
+    path: github.com/exhibitr/exhibitr.github.io
 
 
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
