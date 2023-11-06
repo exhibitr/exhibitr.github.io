@@ -25,7 +25,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.BUILD_HUGO_SITE }}
           force_orphan: true
           commit_message: '[skip ci] Deploy:'
           publish_dir: docs/public
